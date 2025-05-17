@@ -1,122 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Christian Kyle P. Ursal</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Christian Kyle P. Ursal - Portfolio</title>
 </head>
 <body>
+
+  <!-- Header -->
+  <header class="home-container">
+    <h1><a href="#">CHAN</a></h1>
+    <nav aria-label="Primary Navigation">
+      <ul>
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Profile Section -->
+  <section id="profile" class="section-container" aria-label="Profile section">
+    <div class="profile-left">
+      <h2>Hi, I'm Christian Kyle P. Ursal</h2>
+      <p>
+        I'm an IT enthusiast with a strong foundation in tech support, programming, networking, and multimedia production. 
+        I specialize in troubleshooting systems, designing digital content, and helping others navigate the evolving world of technology. 
+        I’m passionate about using tech to solve real-world problems and empower communities both online and offline.
+      </p>
+   <div class="download-resume-wrapper">
+    <a 
+      href="resume.pdf" 
+      download="Christian_Kyle_Ursal_Resume.pdf" 
+      class="button" 
+     aria-label="Download Resume"
+  >
+    Download Resume
+  </a>
+  </div>
+    </div>
+    <div class="profile-right">
+      <img src="/myprofile.jpg" alt="Portrait of Christian Kyle P. Ursal" />
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="section-container" aria-label="Education section">
+    <h2>Education</h2>
+
+    <article class="education-item" tabindex="0">
+      <h3>Senior High School – TVL Track (ICT)</h3>
+      <p><strong>CITE Technical Institute, Inc.</strong> – 2021–2024</p>
+      <p>Specialization in Computer Systems Servicing (CSS)</p>
+      <ul>
+        <li>COC Holder – CSS NC II (COC 1–4)</li>
+        <li>Skills: Tech Support, Graphic Design, Java & C Programming, PCB Layouting</li>
+      </ul>
+    </article>
+
+    <article class="education-item" tabindex="0">
+      <h3>Elementary Education</h3>
+      <p><strong>Tipolo Elementary School</strong> – 2012–2018</p>
+    </article>
+
+    <article class="education-item" tabindex="0">
+      <h3>Certifications</h3>
+      <ul>
+        <li>Computer Systems Servicing NC II – TESDA Certified</li>
+        <li>On-the-Job Training: House-to-house PC Troubleshooting & Repair</li>
+      </ul>
+    </article>
+
+    <article class="education-item" tabindex="0">
+      <h3>Trainings</h3>
+      <ul>
+        <li>“Basic PC Troubleshooting and Maintenance” – TESDA, 2022</li>
+        <li>“Creative Content Design Using Canva & Photoshop” – CITE Student Workshop, 2023</li>
+      </ul>
+    </article>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section-container" aria-label="Skills section">
+    <h2>Skills</h2>
     
-    <header class="home-container">
-        <h1><a href="">CHAN</a></h1>
-            <nav>
-                <ul>
-                    <li><a href="#profile">Profile</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="">Projects</a></li>
-                    <li><a href="">Job Experience</a></li>
-                    <li><a href="">Contact</a></li>
-                    
-                </ul>
-            </nav>
-        
-    </header>
-
-    <div id="profile">
-        <div class="profile-left">
-        <h1>Hi, I'm Christian Kyle P. Ursal</h1>
-        <p>
-           I'm a IT with a strong foundation in tech support,
-            programming, networking, and multimedia production.
-             I specialize in troubleshooting systems, designing
-            digital content, and helping others navigate the 
-            evolving world of technology. I’m passionate about
-             using tech to solve real-world problems 
-            and empower communities both online and offline.
-        </p>
+    <div class="skills-container">
+      <div class="card" tabindex="0">
+        <div class="card-header">Troubleshooting</div>
+        <div class="card-body">
+          <p>
+            I specialize in troubleshooting computer and laptop issues by identifying problems, diagnosing errors, and providing effective solutions for both hardware and software concerns.
+          </p>
         </div>
-        <div class="profile-right">
-        <img src="myprofile.jpg" alt="">
-    </div>
-    </div>
-
-    <section id="education">
-  <h2>Education</h2>
-
-  <div class="education-item">
-    <h3>Senior High School – TVL Track (ICT)</h3>
-    <p><strong>CITE Technical Institute, Inc.</strong> – 2021–2024</p>
-    <p>Specialization in Computer Systems Servicing (CSS)</p>
-    <ul>
-      <li>COC Holder – CSS NC II (COC 1–4)</li>
-      <li>Skills: Tech Support, Graphic Design, Java & C Programming, PCB Layouting</li>
-    </ul>
-  </div>
-
-  <div class="education-item">
-    <h3>Elementary Education</h3>
-    <p><strong>Tipolo Elementary School</strong> – 2012–2018</p>
-  </div>
-
-  <div class="education-item">
-    <h3>Certifications</h3>
-    <ul>
-      <li>Computer Systems Servicing NC II – TESDA Certified</li>
-      <li>On-the-Job Training: House-to-house PC Troubleshooting & Repair</li>
-    </ul>
-  </div>
-
-  <div class="education-item">
-  <h3>Trainings</h3>
-  <ul>
-    <li>“Basic PC Troubleshooting and Maintenance” – TESDA, 2022</li>
-    <li>“Creative Content Design Using Canva & Photoshop” – CITE Student Workshop, 2023</li>
-  </ul>
-</div>
-<!-- services -->
- <h2>Skills</h2>
-<div id="skills">
-    <div class="card">
-      <div class="card-header">Troubleshooting</div>
-      <div class="card-body">
-        <p>I specialize in troubleshooting computer and laptop issues by identifying problems, diagnosing errors, and providing effective solutions for both hardware and software concerns.</p>
       </div>
-    </div>
-    <div class="card">
-      <div class="card-header">Graphic Design</div>
-      <div class="card-body">
-        <p>I make visual designs like logos, posters, social media graphics, and layouts for events or businesses.</p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-header">Networking & System Setup</div>
-      <div class="card-body">
-        <p>I have basic knowledge of setting up and managing computer networks and systems. I can install and connect network devices, set up LAN/WAN, and help make sure everything runs smoothly. I also know how to find and fix common network problems.</p>
-      </div>
-    </div>
-   
-    </div>
-  </div>
-  <!-- project -->
-   <h2>Project</h2>
-    <div class="projects-container">
 
-      <div class="project">
-        <h2>Graphic Design</h2>
-        <button>View</button>
-      </div>
-        <div class="project">
-          <h2>Programming</h2>
-          <button>View</button>
+      <div class="card" tabindex="0">
+        <div class="card-header">Graphic Design</div>
+        <div class="card-body">
+          <p>
+            I create visual designs like logos, posters, social media graphics, and layouts for events or businesses.
+          </p>
         </div>
-        <div class="project">
-          <h2>WebDev</h2>
-          <button>View</button>
+      </div>
+
+      <div class="card" tabindex="0">
+        <div class="card-header">Networking & System Setup</div>
+        <div class="card-body">
+          <p>
+            I have basic knowledge of setting up and managing computer networks and systems. I can install and connect network devices, set up LAN/WAN, and help ensure everything runs smoothly. I also know how to find and fix common network problems.
+          </p>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+<section id="projects" class="section-container" aria-label="Projects section">
+  <h2>Projects</h2>
+  <div class="projects-container">
+    <article class="project" tabindex="0">
+      <h3>Graphic Design</h3>
+      <p>Designed logos, posters, and social media content using Photoshop and Canva for school and community events.</p>
+      <a 
+        href="https://drive.google.com/drive/folders/1EqTu974fFy6D0pztzIJIghbIQwHouYlU?usp=drive_link" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        class="button" 
+        aria-label="View Graphic Design projects"
+      >
+        View
+      </a>
+    </article>
+
+    <article class="project" tabindex="0">
+      <h3>Programming</h3>
+      <p>Created console-based applications using Java and C for school projects, including student records and inventory systems.</p>
+      <a 
+        href="https://drive.google.com/open?id=18ZCeK0xkE2gny0rT_yJpMsStbo352ng9&usp=drive_link" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        class="button" 
+        aria-label="View Programming projects"
+      >
+        View
+      </a>
+    </article>
+
+    <article class="project" tabindex="0">
+      <h3>Web Development</h3>
+      <p>Built static web pages using HTML, CSS, and JavaScript, such as personal portfolios and informational websites.</p>
+      <a 
+        href="https://drive.google.com/drive/folders/14WUUtYicJso4QycHIl04x_Re_jpOreAh?usp=drive_link" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        class="button" 
+        aria-label="View Web Development projects"
+      >
+        View
+      </a>
+    </article>
   </div>
+</section>
+
+
+
+  <!-- Contact Section -->
+<section id="contact" class="section-container contact-section" aria-label="Contact section">
+  <h2 class="contact-title">Contact</h2>
+  <div class="contact-info">
+    <p><strong>Phone:</strong> <a href="tel:09922479072">09922479072</a></p>
+    <p><strong>Email:</strong> <a href="mailto:xchristiankyle@gmail.com">xchristiankyle@gmail.com</a></p>
+  </div>
+</section>
+
+
 </body>
 </html>
-
-
