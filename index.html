@@ -25,21 +25,22 @@
   <!-- Profile Section -->
   <section id="profile" class="section-container" aria-label="Profile section">
     <div class="profile-left">
-      <h2>Hi, I'm Christian Kyle P. Ursal</h2>
+      <h1>Hi, I'm Christian Kyle P. Ursal</h1>
       <p>
         I'm an IT enthusiast with a strong foundation in tech support, programming, networking, and multimedia production. 
         I specialize in troubleshooting systems, designing digital content, and helping others navigate the evolving world of technology. 
         I’m passionate about using tech to solve real-world problems and empower communities both online and offline.
       </p>
    <div class="download-resume-wrapper">
-    <a 
-      href="resume.pdf" 
-      download="Christian_Kyle_Ursal_Resume.pdf" 
-      class="button" 
-     aria-label="Download Resume"
-  >
-    Download Resume
-  </a>
+<a 
+  href="CHRISTIANKYLEP.URSAL-RESUME.pdf" 
+  download="CHRISTIANKYLEP.URSAL-RESUME.pdf" 
+  class="button" 
+  aria-label="Download Resume"
+>
+  Download Resume
+</a>
+
   </div>
     </div>
     <div class="profile-right">
@@ -175,7 +176,37 @@
     <p><strong>Email:</strong> <a href="mailto:xchristiankyle@gmail.com">xchristiankyle@gmail.com</a></p>
   </div>
 </section>
+<!-- Footer -->
+<footer style="background-color: #111; color: white; padding: 40px 0; text-align: center; box-shadow: 0 -2px 8px rgba(0,0,0,0.5);">
+  <div style="margin-bottom: 20px;">
+    <a href="https://www.facebook.com/share/1U8R9zXiji/?mibextid=wwXIfr" style="margin: 0 10px;"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" alt="Facebook" width="30" style="filter: invert(1);"></a>
+    <a href="https://www.instagram.com/trozoxckkk?igsh=NTc0bGpxeGF4dm91&utm_source=qr" style="margin: 0 10px;"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram" width="30" style="filter: invert(1);"></a>
+    <a href="https://github.com/chanokako" style="margin: 0 10px;"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub" width="30" style="filter: invert(1);" /></a>
+    <a href="https://myaccount.google.com/?tab=kk&hl=en&utm_source=OGB&utm_medium=act&gar=WzI4MV0" style="margin: 0 10px;"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/google.svg" alt="Google" width="30" style="filter: invert(1);"></a> 
+  </div>
 
+  <nav style="margin-bottom: 20px;">
+    <a href="#" style="margin: 0 15px; color: white; text-decoration: none;">Home</a>
+    <a href="#" style="margin: 0 15px; color: white; text-decoration: none;">News</a>
+    <a href="#" style="margin: 0 15px; color: white; text-decoration: none;">About</a>
+  </nav>
 
-</body>
+  <p style="font-size: 14px;">Copyright ©2025; Designed by <strong>Chan</strong></p>
+</footer>
+
+  <script src="script.js">
+  document.querySelector('.button[download]').addEventListener('click', function(e) {
+    e.preventDefault();
+    const url = this.href;
+    const filename = this.getAttribute('download') || 'resume.pdf';
+
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = CHRISTIANKYLEP.URSAL-RESUME.pdf;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+  });
+  </script>
+  </body>
 </html>
